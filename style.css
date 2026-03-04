@@ -6,8 +6,8 @@ body {
     padding: 40px;
 
     background: 
-        linear-gradient(to bottom right, white, rgb(229, 243, 251)), /* Gradiente do canto superior esquerdo para o inferior direito */
-        linear-gradient(to bottom left, white, rgb(229, 243, 251)); /* Gradiente do canto superior direito para o inferior esquerdo */
+        linear-gradient(to bottom right, white, rgb(251, 243, 229)), /* Gradiente do canto superior esquerdo para o inferior direito */
+        linear-gradient(to bottom left, white, rgb(251, 243, 229)); /* Gradiente do canto superior direito para o inferior esquerdo */
     background-blend-mode: multiply; 
 
 }
@@ -18,18 +18,18 @@ body {
     margin: auto;
     padding: 30px;
     border-radius: 8px;
-    border: 2px dashed #0a66c2;
+    border: 2px dashed #8e6a08;
 
 }
 
 h1 {
-  color: #0a66c2;
+  color: #8e6a08;
   text-align: center;
   margin-bottom: 15px;
 }
 
 h3 {
-  color: #0a66c2;
+  color: #8e6a08;
   text-align: center;
   margin-bottom: 35px;
   font-size: 20px;
@@ -49,4 +49,26 @@ p, li {
   background: #fff;
   padding: 30px;
   border-radius: 8px;
+}
+
+.foot span {
+    display: block;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+}
+
+.foot {
+    margin: 0;
+    padding: 0;
+}
+
+.foot small {
+    margin: 0;
+    padding: 0;
+}
+
+.updated {
+    margin-top: 6px; /* ajuste como quiser */
+    margin-bottom: 0;
 }
